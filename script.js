@@ -5,7 +5,7 @@ var body = document.getElementById("gradient");
 var randomColorBtn=document.getElementById("randomColor");
 
 window.onload=function(){
-	this.setGradient();
+	this.randomColor();
 }
 
 function setGradient() {
