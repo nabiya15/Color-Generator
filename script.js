@@ -4,8 +4,8 @@ var color2 = document.querySelector(".color2");
 var body = document.getElementById("gradient");
 var randomColorBtn=document.getElementById("randomColor");
 
-window.onload=function(){
-	this.randomColor();
+document.onload=function(){
+	this.setGradient();
 }
 
 function setGradient() {
